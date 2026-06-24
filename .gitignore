@@ -1,0 +1,32 @@
+# 忽略所有 .sat 文件（包括子文件夹中）
+*.sat
+*.satbak
+
+# 可选：忽略其他常见中间/缓存文件
+*.log
+*.tmp
+*.bak
+*.swp
+*.pyc
+__pycache__/
+
+# 如果使用 VSCode，可以忽略它的配置目录
+.vscode/
+
+# 如果使用 PyCharm
+.idea/
+
+# 如果有虚拟环境文件夹
+venv/
+env/
+
+# 忽略 ODB、INP、DAT 等 Abaqus 中间或输出文件（如有需要）
+*.odb
+*.lck
+*.inp
+*.dat
+*.com
+*.msg
+*.prt
+*.sim
+*.sta

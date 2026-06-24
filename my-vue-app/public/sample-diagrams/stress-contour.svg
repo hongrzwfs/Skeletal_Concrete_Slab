@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Sample Abaqus stress contour placeholder</title>
+  <desc id="desc">A schematic stress contour placeholder for Abaqus output.</desc>
+  <defs>
+    <linearGradient id="stress" x1="0" x2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset=".35" stop-color="#22c55e"/>
+      <stop offset=".65" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="#f4f4f5"/>
+  <rect x="70" y="70" width="760" height="535" fill="#ffffff" stroke="#d4d4d8" stroke-width="3"/>
+  <path d="M145 440 318 265 540 300 752 224 664 470 410 520Z" fill="url(#stress)" stroke="#27272a" stroke-width="5"/>
+  <g opacity=".38" stroke="#fff" stroke-width="4" fill="none">
+    <path d="M196 410 C334 342 464 342 694 260"/>
+    <path d="M244 462 C390 404 500 410 690 382"/>
+    <path d="M330 288 C416 350 486 426 556 492"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    <text x="88" y="120" fill="#27272a">ABAQUS STRESS CONTOUR</text>
+    <text x="88" y="562" fill="#52525b" font-size="20">placeholder asset - replace with PNG/JPG output</text>
+  </g>
+  <rect x="640" y="520" width="150" height="18" fill="url(#stress)" stroke="#71717a"/>
+</svg>

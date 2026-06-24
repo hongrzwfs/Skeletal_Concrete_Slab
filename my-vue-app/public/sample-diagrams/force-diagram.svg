@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Sample force diagram placeholder</title>
+  <desc id="desc">A schematic force diagram placeholder for the form-finding evidence chain.</desc>
+  <rect width="900" height="675" fill="#eef3f1"/>
+  <rect x="70" y="70" width="760" height="535" fill="#fbfcfb" stroke="#cbd6d1" stroke-width="3"/>
+  <g stroke="#1d6f68" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M180 460 330 240 505 398 680 180"/>
+    <path d="M330 240 684 474"/>
+    <path d="M180 460 684 474"/>
+  </g>
+  <g fill="#164f4b">
+    <circle cx="180" cy="460" r="18"/>
+    <circle cx="330" cy="240" r="18"/>
+    <circle cx="505" cy="398" r="18"/>
+    <circle cx="680" cy="180" r="18"/>
+    <circle cx="684" cy="474" r="18"/>
+  </g>
+  <g fill="#65716b" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    <text x="88" y="120">FORCE DIAGRAM</text>
+    <text x="88" y="562" font-size="20">placeholder asset - replace with PNG/JPG output</text>
+  </g>
+</svg>

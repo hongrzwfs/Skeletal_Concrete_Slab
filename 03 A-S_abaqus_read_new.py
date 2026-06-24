@@ -8,12 +8,12 @@ import numpy as np
 
 # === 科研参数配置 ===
 L_SPAN = 8.0         
-F_ALLOW = (L_SPAN / 400.0) * 1000.0  
-G_BASE = 19200.0     
-DENSITY = 2500.0     
+F_ALLOW = (L_SPAN / 400.0) * 1000.0
+G_BASE = 44555.84
+DENSITY = 2500.0
 
 # --- 目标函数参数 ---
-ALLIE_MIN = 200.0    # 能量基准值 (J)
+ALLIE_MIN = 318.7806    # 能量基准值 (J)
 W1, W2, W3 = 0.33, 0.33, 0.33  # 综合工程导向权重分配
 
 def iqr_filter(data, k=1.5):
@@ -27,9 +27,9 @@ def format_stress(stress):
     return round(stress / 1e6, 3) if stress is not None else None
 
 # === 设置路径 ===
-odb_folder = r'D:\code202410\Skeleton_Concrete_Slab\04_formal\A-S\A-S_odb_ture'
-output_folder = r'D:\code202410\Skeleton_Concrete_Slab\04_formal\A-S'
-csv_output_path = os.path.join(output_folder, 'results_summary_SEI_v2_ture.csv')
+odb_folder = r'D:\code202410\Skeletal_Concrete_Slab\data_base\A-S\A-S_odb'
+output_folder = r'D:\code202410\Skeletal_Concrete_Slab\data_base\A-S'
+csv_output_path = os.path.join(output_folder, 'results_summary_SEI_ture.csv')
 
 start_time = time.time()
 odb_files = sorted([f for f in os.listdir(odb_folder) if f.endswith('.odb')])

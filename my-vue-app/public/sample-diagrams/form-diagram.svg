@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Sample form diagram placeholder</title>
+  <desc id="desc">A schematic reciprocal form diagram placeholder for the form-finding evidence chain.</desc>
+  <rect width="900" height="675" fill="#f3f1ec"/>
+  <rect x="70" y="70" width="760" height="535" fill="#fffdf8" stroke="#d8d0c2" stroke-width="3"/>
+  <g stroke="#5a6f8f" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M158 455 C250 282 364 236 488 300 S660 420 744 224"/>
+    <path d="M178 502 C314 388 440 376 704 508"/>
+    <path d="M220 210 C368 188 536 188 694 220"/>
+  </g>
+  <g stroke="#c47d35" stroke-width="5" stroke-linecap="round" fill="none" opacity=".85">
+    <path d="M220 210 158 455"/>
+    <path d="M438 196 488 300 440 390"/>
+    <path d="M694 220 744 224 704 508"/>
+  </g>
+  <g fill="#334155" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    <text x="88" y="120">FORM DIAGRAM</text>
+    <text x="88" y="562" font-size="20">placeholder asset - replace with PNG/JPG output</text>
+  </g>
+</svg>

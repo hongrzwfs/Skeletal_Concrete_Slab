@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Sample spatial form placeholder</title>
+  <desc id="desc">A schematic generated spatial floor form placeholder.</desc>
+  <rect width="900" height="675" fill="#edf2f7"/>
+  <rect x="70" y="70" width="760" height="535" fill="#fbfdff" stroke="#c9d4df" stroke-width="3"/>
+  <g fill="none" stroke-linejoin="round">
+    <path d="M146 440 332 268 542 310 752 216 662 470 410 520Z" fill="#dbeafe" stroke="#335c81" stroke-width="6"/>
+    <path d="M332 268 410 520M542 310 410 520M542 310 662 470M752 216 542 310" stroke="#5a7fa3" stroke-width="4"/>
+    <path d="M146 440 410 520 662 470" stroke="#1f2937" stroke-width="5"/>
+  </g>
+  <g fill="#1f2937" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    <text x="88" y="120">GENERATED FORM</text>
+    <text x="88" y="562" font-size="20">placeholder asset - replace with PNG/JPG output</text>
+  </g>
+</svg>
